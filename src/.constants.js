@@ -22,7 +22,7 @@ module.exports = Object.freeze({
     path: '/botNotify'
   },
     COMMANDS_USE_BOT_NAME: {
-      ENABLED: false,  // If true, all commands except '/list' has to have the bot username after the command.
+      ENABLED: true,  // If true, all commands except '/list' has to have the bot username after the command.
       NAME: "@anshdrivebot" //Enter your Bot Username here if above is set to true.
     }
 });
